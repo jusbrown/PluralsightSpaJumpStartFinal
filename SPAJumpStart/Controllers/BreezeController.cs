@@ -14,6 +14,7 @@ namespace CodeCamper.Controllers
     {
         readonly EFContextProvider<CodeCamperDbContext>  _contextProvider =
             new EFContextProvider<CodeCamperDbContext>();
+        readonly string key = "dklja;dlkfjal;sdj";
 
         [HttpGet]
         public string Metadata()
